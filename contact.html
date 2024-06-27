@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Le Mont Noir | Contact</title>
+        <meta name="author" content="Agbodan Gabin E">
+        <meta name="description" content="website for my resort company">
+        <link rel="stylesheet" href="styles.css">
+        <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+        <link rel="icon" href="images/favicon.ico" type="image/x-icon">   
+    </head>
+    <body>
+        <header>
+            <h1>Le Mont Noir</h1>
+            <nav>
+                <ul>               
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Accommodations</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>    
+             </nav>
+            </header>
+            <div id="grid-container">
+            <figure>
+                <h2>Contact Us</h2>
+                <p>Please reach out to us with any questions or concerns. We are happy to help you plan your dream vacation with us!</p>
+                <img src="images/swiss-peak.jpg" alt="Swiss peak" width="350" height="455">
+            </figure>
+            <figure>
+                <div>
+                    <form action="https://wp.zybooks.com/form-viewer.php" target="_blank" method="post">
+                        <p>
+                            <label for="full">Full name</label>
+                            <input type="text" id="full" name="full" placeholder="text box">
+                        </p>
+                        <p>
+                            <label for="email">Email address</label>
+                            <input type="text" id="email" name="email" placeholder="text box">
+                        </p>
+                        <p>
+                            <label for="phone">Phone number</label>
+                            <input type="text" id="phone" name="phone" placeholder="text box">
+                        </p>  
+                        <fieldset>
+                            <legend>Preferred Method of Contact<span class="required">*</span></legend>
+                            <input type="radio" name="contact-pref" id="pref-email" value="prefer-email" required checked>
+                            <label for="pref-email">Email</label>
+                            <input type="radio" name="contact-pref" id="pref-phone" value="prefer-phone" required checked>
+                            <label for   ="pref-phone">Phone</label>
+                        </fieldset>      
+                        <p>
+                            <label for="comments">Comments</label>
+                            <input type="text" id="comments" name="comments" placeholder="text box">
+                        </p>
+                        <p>
+                            <input type="submit" value="Submit">
+                        </p>
+                    </form>
+                </div>  
+            </figure>
+        </div>
+        <footer class="footer">
+            <p>Copyright ©2023 - Le Mont Noir</p>
+            <p>This site is for educational purposes only</p>
+        </footer>    
+    </body>    
+</html>
